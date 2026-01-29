@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Wheatstone Bridge Experiment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- MathJax for LaTeX -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <link rel="stylesheet" href="../../theoryPages.css">
+    <script src="/navigationimport.js" type="module"></script>
+    <script src="/Theory/theoryContentPage.js" type="module"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="page-header">
+        <h2>Wheatstone Bridge</h2>
+        <a href="../electromag.html" class="back-btn">← Back to Electromagnetism Experiments</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <h2>Overview</h2>
+        <p>This experiment uses a Wheatstone bridge to determine the value of an unknown resistance by balancing two arms of a bridge circuit, eliminating the need for current measurement.</p>
+
+        <h2>What This Experiment Demonstrates</h2>
+        <ul>
+            <li>Precise measurement of resistance</li>
+            <li>Concept of bridge balance (null deflection)</li>
+            <li>Reduction of systematic errors</li>
+        </ul>
+
+        <h2>Apparatus Required</h2>
+        <ul>
+            <li>DC power supply or cell</li>
+            <li>Galvanometer</li>
+            <li>Known resistors \( R_1 \) and \( R_2 \)</li>
+            <li>Unknown resistor \( R_x \)</li>
+            <li>Variable resistor (rheostat or resistance box)</li>
+            <li>Switch</li>
+            <li>Connecting wires</li>
+        </ul>
+
+        <h2>Theory</h2>
+        <p>A Wheatstone bridge consists of four resistances arranged in a diamond shape. When the bridge is balanced, no current flows through the galvanometer.</p>
+
+        <p>At balance condition:</p>
+
+        <p>\[ \frac{R_1}{R_2} = \frac{R_x}{R_3} \]</p>
+
+        <p>where \( R_3 \) is the variable resistance adjusted to achieve null deflection.</p>
+
+        <p>The unknown resistance is given by:</p>
+
+        <p>\[ R_x = \frac{R_1}{R_2} \times R_3 \]</p>
+
+        <h2>Method</h2>
+        <ol>
+            <li>Set up the Wheatstone bridge circuit using known resistors \( R_1 \) and \( R_2 \).</li>
+            <li>Connect the unknown resistance \( R_x \) in one arm of the bridge.</li>
+            <li>Insert the galvanometer between the two junctions.</li>
+            <li>Close the switch and adjust the variable resistor \( R_3 \).</li>
+            <li>Observe the galvanometer and adjust until null deflection is obtained.</li>
+            <li>Record the balanced value of \( R_3 \).</li>
+            <li>Repeat the procedure with different ratios of \( R_1 \) and \( R_2 \).</li>
+        </ol>
+
+        <h2>Observations</h2>
+        <ul>
+            <li>Values of \( R_1 \) and \( R_2 \)</li>
+            <li>Balanced value of \( R_3 \)</li>
+            <li>Consistency of null deflection</li>
+        </ul>
+
+        <h2>Calculations</h2>
+        <p>Calculate the unknown resistance using:</p>
+
+        <p>\[ R_x = \frac{R_1}{R_2} \times R_3 \]</p>
+
+        <p>Take the mean value if multiple trials are performed.</p>
+
+        <h2>Result</h2>
+        <p>The unknown resistance is determined using the Wheatstone bridge method and is accurate due to the null measurement technique.</p>
+
+        <h2>Sources of Error & Precautions</h2>
+        <ul>
+            <li>Ensure all connections are tight and clean.</li>
+            <li>Use low current to prevent heating of resistors.</li>
+            <li>Always check for true null deflection.</li>
+            <li>Do not keep the circuit closed for long durations.</li>
+        </ul>
+
+        <h2>Video Demonstration</h2>
+        <div class="video-container">
+            <iframe 
+              src="https://www.youtube.com/embed/ZqAM_wQ35ow"
+              title="Wheatstone Bridge Experiment Demonstration"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+        </div>
+
+        <p>Video courtesy of <b>Electronoobs</b> (YouTube). Used for educational purposes under YouTube’s embedding policy.</p>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2026 A Guide to the IJSO. All rights reserved.
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Experiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://kit.fontawesome.com/04bf603a0f.js" crossorigin="anonymous"></script>
+  <script src="experiments.js" defer></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #0b0c2a;
+      color: #333;
+    }
+
+
+    header {
+      background: #0b0c2a;
+      color: #f0f0f0;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .card {
+      flex: 1 1 300px;
+      background-color: #1f1359;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card .content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+    /* Color-coded headings */
+    .physics h2 {
+      color: #56a9ff;
+    }
+
+    .chemistry h2 {
+      color: #b561ff;
+    }
+
+    .biology h2 {
+      color: #40cb7a;
+    }
+
+    .card p {
+      color: #f0f0f0;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .physics a {
+      background-color: #56a9ff;
+    }
+
+    .physics a:hover {
+      background-color: #a2cefd;
+    }
+
+    .chemistry a {
+      background-color: #b561ff;
+    }
+
+    .chemistry a:hover {
+      background-color: #cea5f2;
+    }
+
+    .biology a {
+      background-color: #40cb7a;
+    }
+
+    .biology a:hover {
+      background-color: #7eebab;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      color: #333;
+    }
+
+    footer {
+      background-color: #1f1359;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    .back-button-right {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 900px;
+  margin: 0 auto 1rem auto;
+  padding-right: 1.5rem; /* matches padding of file-actions */
+}
+
+.back-button-right a {
+  padding: 0.5rem 1.2rem;
+  background-color: #1e3a8a;
+  color: #f0f0f0;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.back-button-right a:hover {
+  background-color: #2946b5;
+}
+    .glowing-spots {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .glowing-spots span {
+      position: absolute;
+      display: block;
+      width: 30px;
+      height: 30px;
+      background: radial-gradient(circle, #806aed, transparent 70%);
+      border-radius: 50%;
+      animation: moveGlow 20s linear infinite;
+      opacity: 0.5;
+      filter: blur(8px);
+    }
+
+    @keyframes moveGlow {
+      0% {
+        transform: translateY(100vh) translateX(0) scale(0.5);
+        opacity: 0.2;
+      }
+
+      50% {
+        opacity: 0.8;
+      }
+
+      100% {
+        transform: translateY(-100vh) translateX(50vw) scale(1);
+        opacity: 0;
+      }
+    }
+    .cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px; /* half width */
+    margin-top: -20px;  /* half height */
+    border-radius: 50%;
+    pointer-events: none;
+    background: rgba(134, 110, 237, 0.6);
+    box-shadow: 0 0 8px 4px rgba(134, 110, 237, 0.7);
+    transition: transform 0.1s ease-out;
+    mix-blend-mode: screen;
+    z-index: 9999;
+    transform: translate3d(0, 0, 0);
+  }
+  </style>
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+<body>
+
+
+  <div class="glowing-spots" id="glowingSpots"></div>
+  <div class="cursor"></div>
+  <!-- Header -->
+  <header>
+    <h1>Experiments</h1>
+    <p>Your built in guide for experiments needed for the IJSO ✨</p>
+  </header>
+
+  <div class="back-button-right">
+    <a href="../laboratoryguide.html">← Back to Laboratory Guide</a>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="container">
+    <div class="cards">
+      <!-- Physics -->
+      <div class="card physics">
+        <img src="/images/theory/physics.png" alt="Physics" />
+        <div class="content">
+          <h2>Physics</h2>
+          <br>
+          <p>Learn about  experiments exploring mechanics, electricity, thermodynamics, and optics.</p>
+          <br>
+          <a href="Physics/physics.html">Explore Physics Experiments!</a>
+        </div>
+      </div>
+
+      <!-- Chemistry -->
+      <div class="card chemistry">
+        <img src="/images/theory/chemistry.png" alt="Chemistry" />
+        <div class="content">
+          <h2>Chemistry</h2>
+          <br>
+          <p>Master experimental techniques such as titrations, electrochemistry, and more.</p>
+          <br>
+          <a href="Chemistry/chemistry.html">Explore Chemistry Experiments!</a>
+        </div>
+      </div>
+
+      <!-- Biology -->
+      <div class="card biology">
+        <img src="/images/theory/biology.png" alt="Biology" />
+        <div class="content">
+          <h2>Biology</h2>
+          <br>
+          <p>Investigate biological processes through practical experiments in microscopy, physiology, and plant studies</p>
+          <br>
+          <a href="Biology/Biology.html">Explore Biology Experiments!</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 A Guide to the IJSO. All rights reserved.</p>
+  </footer>
+<script src="/glowingspots.js"></script>
+</body>
+</html>

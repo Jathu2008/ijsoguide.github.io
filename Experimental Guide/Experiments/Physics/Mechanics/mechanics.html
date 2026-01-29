@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mechanics Experiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../sectionPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+
+<body>
+  <div class="glowing-spots" id="glowingSpots"></div>
+  <div class="cursor"></div>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Mechanics Experiments</h1>
+    <p>Investigate the core ideas of mechanics through hands-on experiments involving motion, forces, equilibrium, and
+      elasticity.</p>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h2>Mechanics Experiments</h2>
+    <a class="back-btn" href="../physics.html">← Back to Physics Experiments</a>
+  </div>
+
+  <!-- Cards -->
+  <div class="container">
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Acceleration due to Gravity<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Determine the acceleration due to gravity by analyzing the period of oscillation of a simple pendulum.</p>
+        <br>
+        <a class="learn-btn" href="Pendulum/pendulum.html">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- Newton's Second Law -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Newton’s Second Law<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Verify the relationship between force, mass, and acceleration using carts, pulleys, and hanging masses.</p>
+        <br>
+        <a class="learn-btn" href="Newton Law/newton_law.html">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- Center of Mass -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Center of Mass<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Locate the center of mass of an irregular object using suspension and plumb-line methods.</p>
+        <br>
+        <a class="learn-btn" href="Center of Mass/center_of_mass.html">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- Hooke's Law -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Hooke’s Law<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Investigate the relationship between force and extension to determine the spring constant.</p>
+        <br>
+        <a class="learn-btn" href="Hooke Law/hooke_law.html">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- Coefficient of Friction -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Coefficient of Kinetic Friction (Horizontal Plane)<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Determine the coefficient of kinetic friction between a surface and a body by analyzing motion on a horizontal plane.</p>
+        <br>
+        <a class="learn-btn" href="Kinetic Friction/kinetic_friction.html">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- Coefficient of Friction -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Coefficient of Static Friction (Inclined Plane)<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Determine the coefficient of static friction between a surface and a body by analyzing motion on an inclined plane at the threshold of sliding.</p>
+        <br>
+        <a class="learn-btn" href="Static Friction/Static_friction.html">Learn More →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 A Guide to the IJSO. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function toggleCard(card) {
+      const content = card.querySelector('.card-content');
+      const allCards = document.querySelectorAll('.card');
+      allCards.forEach(c => {
+        if (c !== card) c.querySelector('.card-content').style.display = 'none';
+      });
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+  <script src="/glowingspots.js"></script>
+</body>
+
+</html>

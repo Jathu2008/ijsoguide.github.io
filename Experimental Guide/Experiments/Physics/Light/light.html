@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Light Experiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../sectionPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+<body>
+<div class="glowing-spots" id="glowingSpots"></div>
+  <div class="cursor"></div>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Light Experiments</h1>
+    <p>Explore the behavior of light through experiments on reflection, refraction, lenses, and optical properties of materials.</p>
+</header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h2>Light Experiments</h2>
+    <a class="back-btn" href="../physics.html">← Back to Physics Experiments</a>
+  </div>
+
+  <!-- Cards -->
+  <div class="container">
+
+    <!-- Reflection & Refraction -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Reflection<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Study how light reflects at boundaries and law of reflection.</p>
+        <br>
+        <a class="learn-btn" href="Reflection/reflection.html">Learn More →</a>
+      </div>
+    </div>
+  
+    <!-- Focal Length -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Focal Length of Lenses & Mirrors<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Determine the focal length of convex lenses and spherical mirrors using image formation and ray tracing methods.</p>
+        <br>
+        <a class="learn-btn" href="Focal Length/focal_length.html">Learn More →</a>
+      </div>
+    </div>
+  
+    <!-- Prism Angle -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Prism Angle Measurement<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Measure the angle of a prism using geometrical construction and angular deviation of light rays.</p>
+        <br>
+        <a class="learn-btn" href="Prism Angle/prism_angle.html">Learn More →</a>
+      </div>
+    </div>
+  
+    <!-- Refractive Index of Water -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Refractive Index of Water<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Find the refractive index of water by analyzing the diameter of the light ring formed due to refraction.</p>
+        <br>
+        <a class="learn-btn" href="Refractive Index/refractive_index.html">Learn More →</a>
+      </div>
+    </div>
+  
+  
+  
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 A Guide to the IJSO. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function toggleCard(card) {
+      const content = card.querySelector('.card-content');
+      const allCards = document.querySelectorAll('.card');
+      allCards.forEach(c => {
+        if (c !== card) c.querySelector('.card-content').style.display = 'none';
+      });
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+<script src="/glowingspots.js"></script>
+</body>
+</html>

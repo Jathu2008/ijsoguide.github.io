@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thermodynamics Experiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../sectionPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+<body>
+<div class="glowing-spots" id="glowingSpots"></div>
+  <div class="cursor"></div>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Thermodynamics Experiments</h1>
+    <p>Explore how heat, temperature, and energy transfer govern physical systems through carefully designed thermal experiments.</p>
+</header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h2>Thermodynamics Experiments</h2>
+    <a class="back-btn" href="../physics.html">← Back to Physics Experiments</a>
+  </div>
+
+  <!-- Cards -->
+  <div class="container">
+    <div class="card" onclick="toggleCard(this)">
+        <div class="card-header">
+          Specific Heat of Liquids<span class="arrow">→</span>
+        </div>
+        <div class="card-content">
+          <p>Determine the specific heat capacity of a liquid by measuring temperature changes during controlled heat transfer.</p>
+          <br>
+          <a class="learn-btn" href="Specific Heat/specific_heat.html">Learn More →</a>
+        </div>
+      </div>
+      
+      <div class="card" onclick="toggleCard(this)">
+        <div class="card-header">
+          Latent Heat<span class="arrow">→</span>
+        </div>
+        <div class="card-content">
+          <p>Investigate phase changes by measuring the latent heat absorbed or released during melting or boiling.</p>
+          <br>
+          <a class="learn-btn" href="Latent Heat/latent_heat.html">Learn More →</a>
+        </div>
+      </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 A Guide to the IJSO. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function toggleCard(card) {
+      const content = card.querySelector('.card-content');
+      const allCards = document.querySelectorAll('.card');
+      allCards.forEach(c => {
+        if (c !== card) c.querySelector('.card-content').style.display = 'none';
+      });
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+<script src="/glowingspots.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0b0c2a;
+    color: #1a1a1a;
+  }
+
+
+  /* Header Section */
+  header {
+    background-color: #0b0c2a;
+    padding: 3rem 1rem 2rem;
+    text-align: center;
+    color: #e0e0e0;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #e6e6e6;
+  }
+
+  /* Page Header */
+  .page-header {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .page-header h2 {
+    font-size: 1.8rem;
+    color: #b561ff;
+  }
+  
+  .back-btn {
+    background-color: #b561ff;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+    margin-top: 0.5rem;
+    margin-left: auto;
+  }
+
+  .back-btn:hover {
+    background-color: #cea5f2;
+  }
+
+  /* Cards */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .card {
+    background-color: #1f1359;
+    border: 1px solid #b561ff;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1.2rem 1.5rem;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #b561ff;
+  }
+
+  .card-content {
+    display: none;
+    margin-top: 0.8rem;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .card-content p {
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+  }
+
+  .learn-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #b561ff;
+    color: #333;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+  }
+
+  .learn-btn:hover {
+    background-color: #cea5f2;
+  }
+
+  .arrow {
+    font-size: 1.2rem;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Practice Section */
+  .practice-section {
+    text-align: center;
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #1f1359;
+    border-radius: 10px;
+    border: 1px solid #b561ff;
+  }
+
+  .practice-section-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .practice-section h4 {
+    color: #b561ff;
+    font-size: 1.4rem;
+  }
+
+  .practice-section p {
+    color: #FFFFFF;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .practice-section a {
+    display: inline-block;
+    background-color: #b561ff;
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 6px;
+    border-color: #1f1359;
+    font-weight: bold;
+  }
+
+  .practice-section a:hover {
+    background-color: #cea5f2;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #1f1359;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  .glowing-spots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .glowing-spots span {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle, #806aed, transparent 70%);
+    border-radius: 50%;
+    animation: moveGlow 20s linear infinite;
+    opacity: 0.5;
+    filter: blur(8px);
+  }
+
+  @keyframes moveGlow {
+    0% {
+      transform: translateY(100vh) translateX(0) scale(0.5);
+      opacity: 0.2;
+    }
+
+    50% {
+      opacity: 0.8;
+    }
+
+    100% {
+      transform: translateY(-100vh) translateX(50vw) scale(1);
+      opacity: 0;
+    }
+  }
+  .cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px; /* half width */
+  margin-top: -20px;  /* half height */
+  border-radius: 50%;
+  pointer-events: none;
+  background: rgba(134, 110, 237, 0.6);
+  box-shadow: 0 0 8px 4px rgba(134, 110, 237, 0.7);
+  transition: transform 0.1s ease-out;
+  mix-blend-mode: screen;
+  z-index: 9999;
+  transform: translate3d(0, 0, 0);
+}

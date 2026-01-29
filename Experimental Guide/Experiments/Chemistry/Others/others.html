@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Other Chemistry Experiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../sectionPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+<body>
+<div class="glowing-spots" id="glowingSpots"></div>
+<div class="cursor"></div>
+
+<!-- Header Section -->
+<header>
+  <h1>Other Chemistry Experiments</h1>
+  <p>Explore a broad range of experimental techniques in chemistry, including electrochemistry, analytical methods, synthesis, and reaction studies.</p>
+</header>
+
+<!-- Page Header -->
+<div class="page-header">
+  <h2>Other Experiments</h2>
+  <a class="back-btn" href="../chemistry.html">← Back to Chemistry Experiments</a>
+</div>
+
+<!-- Cards -->
+<div class="container">
+
+  <!-- Electrolysis -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Electrolysis<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Study chemical changes produced by electric current, including electrode reactions, Faraday’s laws, and product identification.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Electrochemical Cells -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Electrochemical Cells<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Investigate galvanic and voltaic cells, cell potential measurements, electrode potentials, and redox processes.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Synthesis -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Synthesis<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Perform laboratory synthesis of compounds, focusing on reaction conditions, yield calculation, purification, and safety.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Salt Analysis -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Salt Analysis<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>
+        Identify cations and anions through qualitative tests, confirmatory reactions,
+        and systematic analysis.
+      </p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Spectrophotometry -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Spectrophotometry<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>
+        Use absorbance measurements and calibration curves to determine concentration
+        based on Beer–Lambert law.
+      </p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Kinetics -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Determining Kinetics<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>
+        Measure reaction rates, study rate laws, and analyze factors affecting
+        chemical kinetics.
+      </p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Chromatography -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Chromatography<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>
+        Separate mixtures using paper or thin-layer chromatography and interpret
+        retention factors.
+      </p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Gravimetry -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Gravimetry<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>
+        Determine analyte concentration by mass measurement through precipitation
+        and careful weighing.
+      </p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 A Guide to the IJSO. All rights reserved.</p>
+</footer>
+
+<!-- JavaScript -->
+<script>
+  function toggleCard(card) {
+    const content = card.querySelector('.card-content');
+    const allCards = document.querySelectorAll('.card');
+    allCards.forEach(c => {
+      if (c !== card) c.querySelector('.card-content').style.display = 'none';
+    });
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+<script src="/glowingspots.js"></script>
+</body>
+</html>

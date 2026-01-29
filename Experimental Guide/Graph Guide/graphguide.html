@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graph Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/navigationimport.js" type="module"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
+</head>
+<body>
+
+  <div class="glowing-spots" id="glowingSpots"></div>
+  <div class="cursor"></div>
+
+  <header>
+    <h1>Graph Guide</h1>
+    <p>Master the art of plotting and interpreting graphs — essential for physics experiments and Olympiad success. This guide covers every rule, type, and tip for working with graphs.
+    </p>
+  </header>
+
+  <div class="back-button-right">
+    <a href="../laboratoryguide.html">← Back to Laboratory Guide</a>
+  </div>
+
+  <main class="container">
+
+    <div class="section">
+      <h2>Why Graphs Matter</h2>
+      <p>Graphs help visualize data, reveal relationships between variables, and allow you to quickly analyze trends, slopes, and intercepts.</p>
+    </div>
+
+    <div class="section">
+      <h2>Types of Graphs</h2>
+      <ul>
+        <li>Line Graphs: Show continuous relationships between variables.</li>
+        <li>Bar Graphs: Compare discrete categories.</li>
+        <li>Scatter Plots: Display correlation between two variables.</li>
+        <li>Histograms: Show frequency distributions.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Axes and Scales</h2>
+      <ul>
+        <li>Always label axes with variable name and units.</li>
+        <li>Use linear or logarithmic scales as appropriate.</li>
+        <li>Ensure consistent spacing; avoid distorted scales.</li>
+        <li>Start the axis at zero unless scientifically justified.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Plotting Points</h2>
+      <ul>
+        <li>Accurately mark each point based on measured data.</li>
+        <li>Use small dots or circles for points.</li>
+        <li>Include error bars to indicate measurement uncertainty.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Reading Slopes and Intercepts</h2>
+      <ul>
+        <li>
+          For a linear relationship of the form <strong>\( y = ax + b \)</strong>,
+          the slope of the graph represents the constant <strong>\( a \)</strong>.
+        </li>
+        <li>
+          The intercept <strong>\( b \)</strong> is the value of \( y \) when \( x = 0 \),
+          and should only be interpreted if it has physical meaning.
+        </li>
+        <li>
+          The slope is calculated as <strong>\( \Delta y / \Delta x \)</strong>
+          using two well-separated points on the best-fit line.
+        </li>
+        <li>
+          Even when a physical relationship is not linear, it can often be
+          <strong>linearized</strong> (for example by plotting \( T^2 \) vs \( L \),
+          or \( \ln y \) vs \( \ln x \)) so that the slope still represents a
+          meaningful physical constant.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Best Fit Lines</h2>
+      <ul>
+        <li>Draw a line as close as possible to all points.</li>
+        <li>Do not force it through the origin unless justified.</li>
+        <li>Balance points above and below the line to avoid bias.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Graphing Errors and Uncertainty</h2>
+      <ul>
+        <li>Include error bars for each data point.</li>
+        <li>Propagate uncertainties when calculating slopes or constants.</li>
+        <li>Consider how scatter affects accuracy of slopes/intercepts.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Olympiad-Specific Rules</h2>
+      <ul>
+        <li>Axes must be clearly labeled with units.</li>
+        <li>Maintain proper significant figures.</li>
+        <li>Points must be plotted accurately; avoid premature rounding.</li>
+        <li>Draw lines neatly; messy graphs can lose points.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Tips & Tricks</h2>
+      <ul>
+        <li>Use a ruler for straight lines.</li>
+        <li>Keep spacing proportional to the scale.</li>
+        <li>Annotate slopes and intercepts if needed.</li>
+        <li>Check graphs against raw data for consistency.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Common Graphing Mistakes</h2>
+      <p>
+        Below are six example graphs. Five contain common but serious mistakes that frequently
+        cost marks in practical exams. Only one graph is fully correct.
+      </p>
+    
+      <div class="graph-mistake-grid">
+    
+        <!-- Mistake 1 -->
+        <div class="graph-card incorrect">
+          <img src="image6.png" alt="Graph with abnormal point not excluded">
+          <h3>❌ Mistake 1: Abnormal Point Not Excluded</h3>
+          <p>
+            An obvious anomalous point is included in the analysis without justification.
+            Outliers caused by experimental error should be identified and excluded
+            <strong>with reasoning</strong>, otherwise the slope becomes inaccurate.
+          </p>
+        </div>
+    
+        <!-- Mistake 2 -->
+        <div class="graph-card incorrect">
+          <img src="image3.png" alt="Graph with poorly marked points">
+          <h3>❌ Mistake 2: Points Not Clearly Marked</h3>
+          <p>
+            Data points are too small or faint to be seen clearly.
+            Points must be plotted using visible dots or circles so the examiner
+            can clearly verify accuracy.
+          </p>
+        </div>
+    
+        <!-- Mistake 3 -->
+        <div class="graph-card incorrect">
+          <img src="image2.png" alt="Graph not using most of the graph paper">
+          <h3>❌ Mistake 3: Poor Use of Graph Paper</h3>
+          <p>
+            The graph occupies only a small portion of the available space.
+            You should always scale axes so the data uses
+            <strong>most of the graph paper</strong> to reduce uncertainty.
+          </p>
+        </div>
+    
+        <!-- Mistake 4 -->
+        <div class="graph-card incorrect">
+          <img src="image5.png" alt="Graph forced through origin">
+          <h3>❌ Mistake 4: Forcing the Line Through the Origin</h3>
+          <p>
+            The best-fit line is forced through the origin even though the data
+            does not justify it. A line should only pass through the origin
+            if the physics <em>demands</em> it.
+          </p>
+        </div>
+    
+        <!-- Mistake 5 -->
+        <div class="graph-card incorrect">
+          <img src="image4.png" alt="Joining points instead of best fit line">
+          <h3>❌ Mistake 5: Joining Points Instead of Best-Fit Line</h3>
+          <p>
+            Lines are drawn point-to-point rather than drawing a single
+            best-fit line. This ignores experimental uncertainty and is
+            incorrect for continuous relationships.
+          </p>
+        </div>
+    
+        <!-- Correct Graph -->
+        <div class="graph-card correct">
+          <img src="image1.png" alt="Correctly plotted graph">
+          <h3>✅ Correct Graph</h3>
+          <p>
+            Points are clearly marked, anomalous data is treated correctly,
+            the graph uses most of the available space, and a proper best-fit
+            line is drawn without unjustified assumptions.
+          </p>
+        </div>
+    
+      </div>
+    </div>
+
+  </main>
+
+  <div class="footer">
+    &copy; 2026 A Guide to the IJSO. All rights reserved.
+  </div>
+
+  <script src="/glowingspots.js"></script>
+</body>
+</html>

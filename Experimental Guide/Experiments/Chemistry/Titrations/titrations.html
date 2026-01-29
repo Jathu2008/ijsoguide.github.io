@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Titration Experiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../sectionPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+<body>
+<div class="glowing-spots" id="glowingSpots"></div>
+<div class="cursor"></div>
+
+<!-- Header Section -->
+<header>
+  <h1>Titration Experiments</h1>
+  <p>Master quantitative chemical analysis through titration techniques, indicators, redox systems, and complex formation reactions.</p>
+</header>
+
+<!-- Page Header -->
+<div class="page-header">
+  <h2>Titrations</h2>
+  <a class="back-btn" href="../chemistry.html">← Back to Chemistry Experiments</a>
+</div>
+
+<!-- Cards -->
+<div class="container">
+
+  <!-- General Principles -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      General Principles<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Understand the fundamentals of titration.</p>
+      <br>
+      <a class="learn-btn" href="General Principles/general_principles.html">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Solution Preparation -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Solution Preparation and Standardization<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Learn how to prepare standard and approximate solutions, perform standardization, and calculate concentrations accurately.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Strong Acid + Strong Base -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Acid–Base Titrations: Strong Acid + Strong Base<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Study pH changes, titration curves, and indicator selection for strong acid–strong base systems.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Weak / Strong Combinations -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Strong Acid + Weak Base / Weak Acid + Strong Base<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Analyze buffer regions, equivalence pH shifts, and suitable indicators for asymmetric acid-base systems.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Polyprotic -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Polyprotic Species<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Investigate titrations involving species with multiple dissociation steps and interpret multi-stage titration curves.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Iodometry -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Iodometry<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Perform redox titrations involving iodine and thiosulfate, focusing on oxidizing and reducing agents.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Permanganometry -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Permanganometry<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Explore redox titrations using potassium permanganate as a self-indicator in acidic, neutral, and alkaline media.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Dichromatometry -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Dichromatometry<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Study redox titrations using potassium dichromate and external indicators for oxidation–reduction reactions. </p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Complexonometry -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Complexonometry<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Learn EDTA titrations for determining metal ion concentrations using complex formation reactions.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+  <!-- Argentometry -->
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-header">
+      Argentometry<span class="arrow">→</span>
+    </div>
+    <div class="card-content">
+      <p>Determine halide ions using silver nitrate titrations.</p>
+      <br>
+      <a class="learn-btn" href="">Learn More →</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 A Guide to the IJSO. All rights reserved.</p>
+</footer>
+
+<!-- JavaScript -->
+<script>
+  function toggleCard(card) {
+    const content = card.querySelector('.card-content');
+    const allCards = document.querySelectorAll('.card');
+    allCards.forEach(c => {
+      if (c !== card) c.querySelector('.card-content').style.display = 'none';
+    });
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+<script src="/glowingspots.js"></script>
+</body>
+</html>

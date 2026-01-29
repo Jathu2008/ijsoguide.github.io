@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Electromagnetism Experiments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../sectionPages.css">
+  <script src="/navigationimport.js" type="module"></script>
+</head>
+
+<body>
+  <div class="glowing-spots" id="glowingSpots"></div>
+  <div class="cursor"></div>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Electromagnetism Experiments</h1>
+    <p>Explore the principles of electricity and magnetism through experiments involving circuits, resistance, current,
+      voltage, and electrical measurements.</p>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h2>Electromagnetism Experiments</h2>
+    <a class="back-btn" href="../physics.html">← Back to Physics Experiments</a>
+  </div>
+
+  <!-- Cards -->
+  <div class="container">
+
+    <!-- Circuit Setup & Instrumentation -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Circuit Setup & Instrumentation<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Learn how to correctly set up electrical circuits, connect power supplies, and use ammeters, voltmeters, and
+          multimeters safely and accurately in experiments.</p>
+        <br>
+        <a class="learn-btn" href="Instruments/instruments.html">Learn More →</a>
+      </div>
+    </div>
+    <!-- Ohm's Law -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Ohm’s Law<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Verify the linear relationship between voltage and current for a conductor and determine its resistance.</p>
+        <br>
+        <a class="learn-btn" href="Ohm Law/ohm_law.html">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- Wheatstone Bridge -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Wheatstone Bridge<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Apply the Wheatstone bridge principle to accurately determine an unknown resistance.</p>
+        <br>
+        <a class="learn-btn" href="Wheatstone Bridge/wheatstone_bridge.html">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- Resistivity of a Wire -->
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-header">
+        Resistivity of a Wire<span class="arrow">→</span>
+      </div>
+      <div class="card-content">
+        <p>Measure the resistivity of a wire using its dimensions and electrical resistance.</p>
+        <br>
+        <a class="learn-btn" href="Resistivity/resistivty.html">Learn More →</a>
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 A Guide to the IJSO. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function toggleCard(card) {
+      const content = card.querySelector('.card-content');
+      const allCards = document.querySelectorAll('.card');
+      allCards.forEach(c => {
+        if (c !== card) c.querySelector('.card-content').style.display = 'none';
+      });
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+  <script src="/glowingspots.js"></script>
+</body>
+
+</html>
