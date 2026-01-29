@@ -2,9 +2,12 @@
   --bg-dark: #0b0c2a;
   --bg-darker: #07081c;
   --bg-navy: #131347;
-  --primary: #3b82f6;
-  --secondary: #8b5cf6;
-  --accent: #ec4899;
+  --primary: #1d4ed8;
+  /* Deeper Blue */
+  --secondary: #7c3aed;
+  /* Deeper Purple */
+  --accent: #db2777;
+  /* Deeper Pink/Magenta */
   --text-main: #ffffff;
   --text-muted: rgba(255, 255, 255, 0.7);
   --glass: rgba(255, 255, 255, 0.05);
@@ -12,7 +15,7 @@
   --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   --radius-lg: 24px;
   --radius-md: 16px;
-  --gradient-main: linear-gradient(45deg, var(--primary), var(--secondary), var(--accent));
+  --gradient-main: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent));
 }
 
 * {
@@ -92,6 +95,7 @@ body {
   transition-delay: 0.5s;
 }
 
+
 #particleCanvas {
   position: fixed;
   top: 0;
@@ -102,6 +106,7 @@ body {
   background: var(--bg-dark);
   pointer-events: none;
 }
+
 
 /* HERO SECTION */
 .hero-section {
@@ -140,6 +145,8 @@ body {
   display: inline-block;
 }
 
+
+
 .hero-description {
   font-size: clamp(1.1rem, 3vw, 1.4rem);
   color: var(--text-muted);
@@ -155,6 +162,7 @@ body {
   flex-wrap: wrap;
   animation: fadeInUp 0.8s ease backwards 0.4s;
 }
+
 
 .cta-button {
   padding: 1rem 2rem;
@@ -211,6 +219,7 @@ section {
   display: inline-block;
   padding: 0;
 }
+
 
 .about-description {
   text-align: center;
@@ -304,6 +313,7 @@ section {
   background-clip: text;
   color: transparent;
 }
+
 
 .success-stories {
   display: flex;
@@ -400,6 +410,7 @@ section {
   box-shadow: 0 5px 20px rgba(59, 130, 246, 0.4);
 }
 
+
 /* FOOTER */
 .pre-footer {
   display: flex;
@@ -458,6 +469,8 @@ footer {
   color: var(--text-muted);
   font-size: 0.9rem;
 }
+
+
 
 .header-about-us {
   font-size: 1.2rem;
@@ -557,6 +570,7 @@ footer {
   }
 }
 
+
 /* CUSTOM CURSOR REMOVED */
 
 /* FEEDBACK SECTION */
@@ -606,12 +620,14 @@ footer {
 }
 
 .feedback-avatar {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  background: #ccc;
-  /* Placeholder grey */
-  margin-bottom: 1rem;
+  background: var(--glass-border);
+  margin-bottom: 1.2rem;
+  object-fit: cover;
+  border: 2px solid var(--primary);
+  display: block;
 }
 
 .feedback-card p {
@@ -709,6 +725,4 @@ footer {
     margin: 0 1rem;
     /* Margins for cards on mobile so text doesn't hit edges */
   }
-  
-
 }
