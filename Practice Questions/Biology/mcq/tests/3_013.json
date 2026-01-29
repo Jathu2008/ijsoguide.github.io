@@ -1,0 +1,148 @@
+{
+  "subject": "biology",
+  "unit": "cellular and microbiology",
+  "title": "Useful and Harmful Microbes",
+  "test_id": "3_013",
+  "problems": [
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Genetically ____________ bacteria E. coli can produce _____________.",
+      "options": [
+        "Modified, Insulin",
+        "Non-modified, Penicillin",
+        "Non-modified, Insulin",
+        "Modified, Penicillin"
+      ],
+      "correct": "A",
+      "hint": "Wild-type E.coli does not produce Insulin.",
+      "detailed": "The correct answer is A. Consult the lesson for a detailed explanation."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Which of the following plants gives shelter to nitrogen-fixing bacteria in its roots?",
+      "options": [
+        "Acetobacter",
+        "Diazotrophicus",
+        "Leguminous",
+        "Azolla"
+      ],
+      "correct": "C",
+      "hint": "The plant has root nodules.",
+      "detailed": "The correct answer is option C. All the given plants give shelter to nitrogen-fixing bacteria either in roots or stems, except for leguminous plants, which have root nodules."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Which plant enhances absorption by plant roots?",
+      "options": [
+        "Rhizoctonia",
+        "Ectendomycorrhizae",
+        "Both option B and D",
+        "Arber mycorrhizae"
+      ],
+      "correct": "C",
+      "hint": "Absorption (collective term for osmosis and transport) is only enhanced by mycorrhizal association.",
+      "detailed": "The correct answer is option C, as both B and D are the typesof mycorrhizae."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Lactobacillus is only involved in the production of _______________.",
+      "options": [
+        "Bread products",
+        "Dairy products",
+        "Both option A and B",
+        "None of the above"
+      ],
+      "correct": "B",
+      "hint": "Lactobacillus ferment milk.",
+      "detailed": "The correct answer is B. Dairy products come from yeast."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "The brewing industry mainly relies on _______________. Please choose the BEST answer that encompasses everything.",
+      "options": [
+        "Saccharomyces Cervisae",
+        "Schizosacharomycetes",
+        "Yeast",
+        "Tremellomycetes"
+      ],
+      "correct": "C",
+      "hint": "The brewing industry relies on fermentation",
+      "detailed": "The correct answer is C, all are yeast, but option C is yeast in general, covering all its species."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Pseudomonas causes/is involved in ________________.",
+      "options": [
+        "Food poisoning",
+        "Pneumonia",
+        "Bioremediation",
+        "None of these"
+      ],
+      "correct": "C",
+      "hint": "Pseudomonas is beneficial",
+      "detailed": "The correct answer is C, please refer to the lesson for more details."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Which disease is not caused by bacteria?",
+      "options": [
+        "Food poisoning",
+        "Tuberculosis",
+        "Malaria",
+        "Meningitis"
+      ],
+      "correct": "C",
+      "hint": "Bacteria do not include protozoa",
+      "detailed": "Malaria is caused by Plasmodium, which is actually a parasitic protozoan."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Which bacteria cause leaf spots and blights of crops?",
+      "options": [
+        "Xanthomonas",
+        "SARS",
+        "Puccinia",
+        "TMV"
+      ],
+      "correct": "A",
+      "hint": "The organism is bacteria.",
+      "detailed": "Only Xanthomonas is a bacterium in the given choices. For more explanation, please consult the lesson."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Botulism is caused by _________________.",
+      "options": [
+        "Aspergillus",
+        "Xanthomonus",
+        "Clostridium",
+        "None of the above"
+      ],
+      "correct": "C",
+      "hint": "Botulism is a fatal food poisoning.",
+      "detailed": "Please refer to the lesson for more."
+    },
+    {
+      "author": "Yasir Habib",
+      "level": "easy",
+      "question": "Which disease can be termed as an 'ERADICATED BIOWEAPON?'",
+      "options": [
+        "Smallpox",
+        "Cow pox",
+        "Chicken pox",
+        "SARS"
+      ],
+      "correct": "A",
+      "hint": "The bioweapon is now eradicated from the world.",
+      "detailed": "Smallpox has caused significant destruction, but is currently eradicated."
+    }
+  ]
+}
