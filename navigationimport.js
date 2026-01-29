@@ -112,6 +112,8 @@ if (!(document.head.innerHTML.includes("https://kit.fontawesome.com/04bf603a0f.j
 }
 
 
+
+
 //Connecting account system script
 /*if (!(document.head.innerHTML.includes("accountSystem.js"))){
   const link6 = document.createElement('script');
