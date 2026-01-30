@@ -1,0 +1,56 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Lenz's Law MCQ Problems",
+    "test_id": "1_076",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What does Lenz’s law describe?",
+        "options": [
+          "The magnitude of induced current",
+          "The direction of induced current",
+          "The speed of the induced electrons",
+          "The temperature change in the coil"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Lenz’s law is about how the induced current responds to changes in magnetic flux.",
+        "detailed": "Lenz’s law states that the direction of an induced current in a circuit is such that it opposes the change in magnetic flux that caused it. This means the induced current creates a magnetic field that opposes the original change in magnetic flux.  [oai_citation:1‡GeeksforGeeks](https://www.geeksforgeeks.org/physics/lenzs-law/?utm_source=chatgpt.com)",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "If the magnetic flux through a loop is increasing, the induced current will create a magnetic field that…",
+        "options": [
+          "strengthens the increase",
+          "opposes the increase",
+          "does nothing",
+          "reverses the change completely"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about opposition to change.",
+        "detailed": "When magnetic flux increases through a loop, Lenz’s law states that the induced current will produce a magnetic field that opposes that increase in flux, resisting the change.  [oai_citation:2‡GeeksforGeeks](https://www.geeksforgeeks.org/physics/lenzs-law/?utm_source=chatgpt.com)",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "According to Lenz’s law, if a bar magnet is moved toward a coil, the induced current will flow in such a way that it…",
+        "options": [
+          "attracts the magnet",
+          "repels the magnet",
+          "has no effect on the magnet",
+          "makes the magnet spin"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Lenz’s law causes an opposition to motion.",
+        "detailed": "When a magnet is pushed toward a coil, the induced current’s magnetic field opposes that motion. The coil becomes a magnet that repels the approaching magnet, opposing the change in magnetic flux.  [oai_citation:3‡Encyclopedia Britannica](https://www.britannica.com/science/Lenzs-law?utm_source=chatgpt.com)",
+        "author": "Keyner Avendano"
+      }
+    ]
+  }

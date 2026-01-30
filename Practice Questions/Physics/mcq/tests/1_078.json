@@ -1,0 +1,40 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Applications of Electromagnetic Induction MCQ Problems",
+    "test_id": "1_078",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "Which device uses electromagnetic induction to convert mechanical energy into electrical energy?",
+        "options": [
+          "A battery",
+          "A generator",
+          "A capacitor",
+          "A resistor"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about Faraday’s law and how induction creates voltage.",
+        "detailed": "A generator uses electromagnetic induction to produce an induced electromotive force (EMF) when coils rotate in a magnetic field. This converts mechanical energy into electrical energy.<br>Generators are a primary example of this application.",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "A transformer is used to change the value of an alternating voltage. What type of current must be supplied for a transformer to work?",
+        "options": [
+          "Direct current (DC)",
+          "Alternating current (AC)",
+          "Pulsed DC only",
+          "Any type of current"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Transformers rely on changing magnetic flux.",
+        "detailed": "Transformers only work with alternating current (AC) because AC produces a changing magnetic flux, which induces a voltage in the secondary coil according to Faraday’s law. Direct current (DC) does not produce a changing flux and therefore cannot be used in transformers.",
+        "author": "Keyner Avendano"
+      }
+    ]
+  }

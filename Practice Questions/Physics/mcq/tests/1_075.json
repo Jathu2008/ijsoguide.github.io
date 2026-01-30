@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Electromagnetic Induction MCQ Problems",
+    "test_id": "1_075",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What is magnetic flux?",
+        "options": [
+          "The number of electrons flowing in a wire",
+          "The amount of magnetic field passing through a surface",
+          "The speed of a moving magnet",
+          "The electric field strength"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Magnetic flux describes how much of a magnetic field passes through an area.",
+        "detailed": "Magnetic flux \\(\\Phi\\) is the total magnetic field passing through a given area and depends on magnetic field strength and the area. It tells how many magnetic field lines pass through the surface.<br>Formula: \\(\\Phi = B \\times A\\).",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "According to electromagnetic induction, what is required for an electromotive force (EMF) to be induced in a circuit?",
+        "options": [
+          "A constant magnetic field",
+          "No magnetic field at all",
+          "A changing magnetic field",
+          "A temperature change"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about what changes in these laws cause induced EMF.",
+        "detailed": "Electromagnetic induction occurs when the magnetic field through a circuit changes over time. A changing magnetic field induces an electromotive force (EMF) in a conductor, which can drive current if the circuit is closed.",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "Faraday’s law of induction states that the induced EMF in a circuit is proportional to which of the following?",
+        "options": [
+          "The total resistance in the circuit",
+          "The change in magnetic flux per unit time",
+          "The absolute value of the magnetic field",
+          "The length of the wire only"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Faraday’s law deals with how quickly the magnetic situation changes.",
+        "detailed": "Faraday’s law states that the electromotive force (EMF) generated in a closed circuit is proportional to the rate at which the magnetic flux through the circuit changes.<br>Mathematically: \\(\\mathcal{E} = - \\frac{d\\Phi}{dt}\\).",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "What does Lenz’s law describe?",
+        "options": [
+          "The size of the induced current",
+          "The direction of the induced current",
+          "How temperature affects induction",
+          "The mass of the magnet"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Lenz’s law tells you how the current will respond to changes.",
+        "detailed": "Lenz’s law states that the direction of the induced current is such that the magnetic field it creates opposes the change in the magnetic flux that caused it. This is why the sign in Faraday’s law is negative.",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "If the magnetic flux through a loop is not changing, what is the induced EMF?",
+        "options": [
+          "Maximum",
+          "Minimum",
+          "Zero",
+          "Infinite"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Induced EMF depends on change, not magnitude alone.",
+        "detailed": "According to Faraday’s law, if the magnetic flux through a circuit does not change with time, no electromotive force (EMF) is induced.<br>Thus, the induced EMF is zero when magnetic flux remains constant.",
+        "author": "Keyner Avendano"
+      }
+    ]
+  }

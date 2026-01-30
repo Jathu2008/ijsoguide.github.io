@@ -1,0 +1,72 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Transformers MCQ Problems",
+    "test_id": "1_077",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "What is the main working principle of a transformer?",
+        "options": [
+          "Chemical reactions produce voltage",
+          "Static electric fields generate current",
+          "Electromagnetic induction",
+          "Direct current drives the transformer"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Think about how changing magnetic fields interact with coils.",
+        "detailed": "A transformer works by electromagnetic induction. When alternating current flows through the primary coil, it produces a changing magnetic field that induces a voltage in the secondary coil. Transformers do not work with direct current. <br>Thus the correct principle is electromagnetic induction.",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "Which part of a transformer is connected to the input voltage source?",
+        "options": [
+          "Secondary coil",
+          "Primary coil",
+          "Core",
+          "Load resistor"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "This coil receives the alternating current from the source.",
+        "detailed": "The primary coil is the one connected to the input voltage source. It produces a changing magnetic field in the core that induces a voltage in the secondary coil. <br>This is the correct connection for the input.",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "In a transformer, if the secondary coil has more turns than the primary coil, the transformer is called a…",
+        "options": [
+          "Step-up transformer",
+          "Step-down transformer",
+          "Direct transformer",
+          "No change transformer"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "More turns = higher voltage on the output side.",
+        "detailed": "If the secondary coil has more turns than the primary, the voltage induced in the secondary is greater than the input voltage. This type of transformer increases voltage and is called a step-up transformer. <br>This is the correct classification.",
+        "author": "Keyner Avendano"
+      },
+      {
+        "level": "easy",
+        "question": "According to the transformer equation \\(\\frac{V_s}{V_p} = \\frac{N_s}{N_p}\\), what happens if the secondary coil has fewer turns than the primary?",
+        "options": [
+          "The secondary voltage increases",
+          "The secondary voltage decreases",
+          "Voltage stays the same",
+          "Transformer stops working"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Think about how the ratio of turns affects voltage.",
+        "detailed": "The transformer equation relates secondary and primary voltages to their turns ratio. If \\(N_s < N_p\\), then \\(V_s < V_p\\), meaning the secondary voltage decreases. <br>This describes a step-down transformer.",
+        "author": "Keyner Avendano"
+      }
+    ]
+  }
