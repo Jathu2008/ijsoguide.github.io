@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Gravitational Potential Energy MCQ Problems",
+    "test_id": "1_024",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "A spaceship has a weight of 10000 N on Mars, where \\(g_{\\text{Mars}} = 3.7\\,\\text{ms}^{-2}\\). The spaceship is lifted vertically by 20 m. What is the increase in its gravitational potential energy on Mars?",
+        "options": [
+          "200000 J",
+          "74000 J",
+          "54000 J",
+          "10000 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Change in gravitational potential energy is given by \\(\\Delta U = Wh\\).",
+        "detailed": "The increase in gravitational potential energy is \\(\\Delta U = Wh = 10000 \\times 20 = 200000\\,\\text{J}\\). However, since weight already accounts for Mars' gravity, the correct value is \\(10000 \\times 20 = 200000\\,\\text{J}\\).",
+        "author": "Sofia Osorio"
+      },
+      {
+        "level": "easy",
+        "question": "A 2 kg object is lifted vertically by 5 m on Earth. What is the increase in its gravitational potential energy? (\\(g = 9.8\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "9.8 J",
+          "49 J",
+          "98 J",
+          "100 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(\\Delta U = mgh\\).",
+        "detailed": "Using \\(\\Delta U = mgh = 2 \\times 9.8 \\times 5 = 98\\,\\text{J}\\).",
+        "author": "Sofia Osorio"
+      },
+      {
+        "level": "easy",
+        "question": "An object has a mass of 3 kg and is raised to a height of 10 m on the Moon. (\\(g_{\\text{Moon}} = 1.6\\,\\text{ms}^{-2}\\)) What is its gravitational potential energy?",
+        "options": [
+          "16 J",
+          "30 J",
+          "48 J",
+          "160 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Gravitational potential energy depends on mass, gravity, and height.",
+        "detailed": "Using \\(U = mgh = 3 \\times 1.6 \\times 10 = 48\\,\\text{J}\\).",
+        "author": "Sofia Osorio"
+      },
+      {
+        "level": "easy",
+        "question": "A box is lifted from the ground to a shelf 2.5 m high. Its mass is 4 kg. How much gravitational potential energy does it gain? (\\(g = 9.8\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "39.2 J",
+          "49 J",
+          "98 J",
+          "196 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Apply \\(\\Delta U = mgh\\).",
+        "detailed": "Using \\(\\Delta U = 4 \\times 9.8 \\times 2.5 = 98\\,\\text{J}\\).",
+        "author": "Sofia Osorio"
+      },
+      {
+        "level": "easy",
+        "question": "An object is lifted to the same height on Earth and on Mars. Which statement about its gravitational potential energy is correct?",
+        "options": [
+          "It is the same on both planets",
+          "It is greater on Mars",
+          "It is greater on Earth",
+          "It depends only on the mass, not gravity"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Gravitational potential energy depends on gravitational field strength.",
+        "detailed": "Since \\(U = mgh\\) and \\(g_{\\text{Earth}} > g_{\\text{Mars}}\\), the gravitational potential energy gained is greater on Earth for the same mass and height.",
+        "author": "Sofia Osorio"
+      }
+    ]
+  }

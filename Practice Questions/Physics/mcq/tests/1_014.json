@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Energy and Energy Conservation MCQ Problems",
+    "test_id": "1_014",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "A ball is dropped with an initial potential energy of 50 J. After each bounce, it regains only half of the energy it had before. What is the ball’s potential energy after five bounces?",
+        "options": [
+          "1.6 J",
+          "10 J",
+          "1.0 J",
+          "48.4 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "After each bounce, the energy is multiplied by 1/2.",
+        "detailed": "Initial energy: \\(E_0 = 50\\,\\text{J}\\). After each bounce, energy halves: \\(E_1 = 25\\), \\(E_2 = 12.5\\), \\(E_3 = 6.25\\), \\(E_4 = 3.125\\), \\(E_5 = 1.5625\\,\\text{J}\\). Thus, after five bounces the energy is approximately \\(1.6\\,\\text{J}\\).",
+        "author": "Sofia Osorio"
+      },
+      {
+        "level": "easy",
+        "question": "How much energy in total has been transformed into other forms (heat, sound, internal energy) after five bounces?",
+        "options": [
+          "40 J",
+          "49 J",
+          "48.4 J",
+          "10 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Lost energy equals initial energy minus remaining potential energy.",
+        "detailed": "Initial energy is \\(50\\,\\text{J}\\). Remaining energy after five bounces is \\(1.5625\\,\\text{J}\\). Energy transformed is \\(50 - 1.5625 = 48.4375\\,\\text{J}\\), which rounds to \\(48.4\\,\\text{J}\\).",
+        "author": "Sofia Osorio"
+      },
+      {
+        "level": "easy",
+        "question": "A 2 kg object is lifted vertically to a height of 5 m. What is its gain in gravitational potential energy? (Use \\(g = 10\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "20 J",
+          "50 J",
+          "100 J",
+          "200 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(E_p = mgh\\).",
+        "detailed": "Using \\(E_p = mgh = 2 \\times 10 \\times 5 = 100\\,\\text{J}\\).",
+        "author": "Thenura Wickramarathna"
+      },
+      {
+        "level": "easy",
+        "question": "A 1 kg ball is dropped from rest from a height of 20 m. Ignoring air resistance, what is its kinetic energy just before hitting the ground? (Use \\(g = 10\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "20 J",
+          "100 J",
+          "200 J",
+          "400 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Mechanical energy is conserved.",
+        "detailed": "Initial gravitational potential energy is \\(mgh = 1 \\times 10 \\times 20 = 200\\,\\text{J}\\). With no energy losses, all of this converts into kinetic energy just before impact.",
+        "author": "Thenura Wickramarathna"
+      },
+      {
+        "level": "easy",
+        "question": "A pendulum bob has 10 J of kinetic energy at its lowest point. Assuming no energy losses, what is its gravitational potential energy at the highest point?",
+        "options": [
+          "0 J",
+          "5 J",
+          "10 J",
+          "20 J"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Total mechanical energy remains constant.",
+        "detailed": "At the lowest point, all energy is kinetic (10 J). At the highest point, all this energy converts into gravitational potential energy, so the potential energy is 10 J.",
+        "author": "Thenura Wickramarathna"
+      }
+    ]
+  }

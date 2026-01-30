@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Gravity and Weight MCQ Problems",
+    "test_id": "1_021",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "A spaceship has a weight of 10000 N on Mars, where \\(g_{\\text{Mars}} = 3.7\\,\\text{ms}^{-2}\\). What would be the spaceship's weight on Earth? (\\(g_{\\text{Earth}} = 9.8\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "10000 N",
+          "3775 N",
+          "26500 N",
+          "98000 N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Find the mass using Mars' gravity, then calculate the weight on Earth.",
+        "detailed": "Using \\(W = mg\\): \\(m = \\frac{10000}{3.7} = 2702.7\\,\\text{kg}\\). On Earth, \\(W = mg = 2702.7 \\times 9.8 \\approx 26500\\,\\text{N}\\).",
+        "author": "Sofia Osorio"
+      },
+      {
+        "level": "easy",
+        "question": "An astronaut has a mass of 80 kg. What is the astronaut’s weight on the Moon? (\\(g_{\\text{Moon}} = 1.6\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "80 N",
+          "128 N",
+          "784 N",
+          "512 N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Weight depends on the gravitational field strength.",
+        "detailed": "Weight is given by \\(W = mg = 80 \\times 1.6 = 128\\,\\text{N}\\).",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A box has a mass of 5 kg. What is its weight on Earth? (\\(g = 9.8\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "5 N",
+          "9.8 N",
+          "49 N",
+          "98 N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(W = mg\\).",
+        "detailed": "Using \\(W = mg = 5 \\times 9.8 = 49\\,\\text{N}\\).",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A person weighs 686 N on Earth. What is the person’s mass? (\\(g = 9.8\\,\\text{ms}^{-2}\\))",
+        "options": [
+          "70 kg",
+          "68 kg",
+          "75 kg",
+          "686 kg"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Rearrange \\(W = mg\\) to find mass.",
+        "detailed": "Mass is \\(m = \\frac{W}{g} = \\frac{686}{9.8} = 70\\,\\text{kg}\\).",
+        "author": "Filip Kilibarda"
+      },
+      {
+        "level": "easy",
+        "question": "A satellite has a mass of 1200 kg. Which statement about its mass and weight is correct as it moves from Earth into deep space?",
+        "options": [
+          "Both mass and weight decrease",
+          "Mass decreases but weight stays constant",
+          "Mass stays constant but weight decreases",
+          "Both mass and weight stay constant"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Mass is intrinsic; weight depends on gravity.",
+        "detailed": "Mass does not depend on location, so it remains constant. Weight depends on gravitational field strength, which decreases in deep space.",
+        "author": "Filip Kilibarda"
+      }
+    ]
+  }
