@@ -47,7 +47,7 @@
                 "title": "Forces and Friction"
                 },
                 "1_008": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Circular Motion"
@@ -433,13 +433,13 @@
                 "title": "Capacitors and Capacitance"
                 },
                 "1_071": {
-                "easy": 0,
+                "easy": 6,
                 "medium": 0,
                 "hard": 0,
                 "title": "Magnetic Fields and Field Lines"
                 },
                 "1_072": {
-                "easy": 0,
+                "easy": 5,
                 "medium": 0,
                 "hard": 0,
                 "title": "Magnetic Force on Moving Charges"

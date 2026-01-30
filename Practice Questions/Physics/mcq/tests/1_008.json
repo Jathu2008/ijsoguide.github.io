@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "mechanics",
+    "title": "Circular Motion MCQ Problems",
+    "test_id": "1_008",
+    "problems": [
+      {
+        "level": "easy",
+        "question": "Imposter Among Us: Which one of the following objects is a rigid body? (Note: D is slime.)",
+        "options": [
+          "Object with a spring",
+          "Object with a string",
+          "Solid rigid object",
+          "Slime"
+        ],
+        "questionImages": ["1_008q_01.png"],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "A rigid body does not deform under applied forces.",
+        "detailed": "Objects containing springs or strings can deform, so they are not rigid bodies. Slime also deforms easily. Only the solid object does not deform and therefore qualifies as a rigid body.",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "Convert an angular speed of \\(67\\,\\text{deg/s}\\) into revolutions per minute (rpm). You may ignore significant figures.",
+        "options": [
+          "670 rpm",
+          "67 rpm",
+          "\\(\\frac{67}{6}\\) rpm",
+          "\\(\\frac{67}{60}\\) rpm"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(1\\,\\text{rev} = 360^\\circ\\) and \\(60\\,\\text{s} = 1\\,\\text{min}\\).",
+        "detailed": "Converting step by step:\n\n\\[\n67\\,\\frac{\\text{deg}}{\\text{s}} \\times \\frac{1\\,\\text{rev}}{360^\\circ} \\times \\frac{60\\,\\text{s}}{1\\,\\text{min}} = \\frac{67}{6}\\,\\text{rpm}\n\\]\n\nThus, the correct answer is \\(\\frac{67}{6}\\,\\text{rpm}\\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "A circular wheel rotates at an angular velocity of \\(8.3\\,\\text{deg/min}\\). If the radius of the wheel is \\(42\\,\\text{m}\\), what is the linear velocity of the wheel’s rim?",
+        "options": [
+          "0.10 m/s",
+          "3.5 \\(\\times 10^2\\) m/s",
+          "5.8 m/s",
+          "2.2 m/s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Use \\(v = r\\omega\\) and convert angular velocity to rad/s.",
+        "detailed": "First convert angular velocity to radians per second:\n\n\\[\n8.3\\,\\frac{\\text{deg}}{\\text{min}} \\times \\frac{\\pi}{180} \\times \\frac{1}{60} = 0.00241\\,\\text{rad/s}\n\\]\n\nThen apply \\(v = r\\omega\\):\n\n\\[\nv = 42 \\times 0.00241 = 0.10\\,\\text{m/s}\n\\]\n\nThus, the correct answer is \\(0.10\\,\\text{m/s}\\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "The centripetal acceleration of an object moving in a circle is \\(3.1\\,\\text{m/s}^2\\), and the radius of the circle is \\(3.0\\,\\text{m}\\). What is the linear velocity of the object?",
+        "options": [
+          "1.5 m/s",
+          "3.0 m/s",
+          "4.2 m/s",
+          "6.4 m/s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Use the relation \\(a = \\frac{v^2}{r}\\).",
+        "detailed": "Rearranging the centripetal acceleration formula:\n\n\\[\nv = \\sqrt{ar}\n\\]\n\nSubstituting values:\n\n\\[\nv = \\sqrt{(3.1)(3.0)} = 3.0\\,\\text{m/s}\n\\]\n\nThus, the correct answer is \\(3.0\\,\\text{m/s}\\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "An object rotates with an angular velocity of \\(3.4\\,\\text{rad/s}\\). What is the period of the rotation?",
+        "options": [
+          "0.047 s",
+          "0.67 s",
+          "1.8 s",
+          "33 s"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Use \\(T = \\frac{2\\pi}{\\omega}\\).",
+        "detailed": "The period is given by: <br>\\[T = \\frac{2\\pi}{\\omega}\\] <br> Substituting \\(\\omega = 3.4\\,\\text{rad/s}\\): <br> \\[T = \\frac{2\\pi}{3.4} = 1.8\\,\\text{s}\\]Thus, the correct answer is \\(1.8\\,\\text{s}\\).",
+        "author": "Doyoon Kim"
+      }
+    ]
+  }

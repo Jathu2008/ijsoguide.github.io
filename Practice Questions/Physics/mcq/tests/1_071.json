@@ -5,7 +5,7 @@
     "test_id": "2_005",
     "problems": [
       {
-        "level": "conceptual",
+        "level": "easy",
         "question": "The Earth generates a magnetic field and therefore has magnetic poles. Assume that the north pole of a compass magnet points north. Where is the Earth's magnetic south pole located?",
         "options": [
           "On the South Pole",
@@ -21,7 +21,7 @@
         "author": "Doyoon Kim"
       },
       {
-        "level": "conceptual",
+        "level": "easy",
         "question": "Which of the following statements about magnetic field lines is NOT true?",
         "options": [
           "The direction of the magnetic field is tangent to the field line at any point in space.",
@@ -69,7 +69,7 @@
         "author": "Doyoon Kim"
       },
       {
-        "level": "medium",
+        "level": "easy",
         "question": "Which description correctly represents the magnetic field inside a bar magnet?",
         "options": [
           "Field lines start at the center and move outward",
@@ -85,7 +85,7 @@
         "author": "Doyoon Kim"
       },
       {
-        "level": "medium",
+        "level": "easy",
         "question": "Which statement correctly describes magnetic field lines around a bar magnet?",
         "options": [
           "They exit the south pole and enter the north pole",
