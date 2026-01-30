@@ -1,0 +1,104 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Basic Magnetism Conceptual MCQ Problems",
+    "test_id": "2_005",
+    "problems": [
+      {
+        "level": "conceptual",
+        "question": "The Earth generates a magnetic field and therefore has magnetic poles. Assume that the north pole of a compass magnet points north. Where is the Earth's magnetic south pole located?",
+        "options": [
+          "On the South Pole",
+          "On the North Pole",
+          "At the center of the Earth",
+          "At some point around the equator"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Opposite magnetic poles attract each other.",
+        "detailed": "Since the north pole of a compass magnet is attracted toward Earth's geographic North Pole, the Earth must behave like a magnetic south pole at that location. Therefore, Earth's magnetic south pole is located near the geographic North Pole.",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "conceptual",
+        "question": "Which of the following statements about magnetic field lines is NOT true?",
+        "options": [
+          "The direction of the magnetic field is tangent to the field line at any point in space.",
+          "The strength of the field is proportional to the density of the field lines.",
+          "Magnetic field lines can never cross.",
+          "Magnetic field lines are directed from the south pole to the north pole."
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "D",
+        "hint": "Recall the conventional direction of magnetic field lines outside a magnet.",
+        "detailed": "Magnetic field lines are conventionally defined as emerging from the north pole and entering the south pole outside the magnet. Therefore, the statement claiming the opposite direction is incorrect.",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "Some objects are attracted to magnets because they become magnetized. Which of the following materials is attracted to magnets?",
+        "options": [
+          "Diamond",
+          "Gold",
+          "Cobalt",
+          "Water"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Only one of these materials is paramagnetic.",
+        "detailed": "Cobalt is a paramagnetic material and is attracted to magnetic fields. Diamond, gold, and water are diamagnetic and are weakly repelled by magnetic fields.",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "What happens to a magnet when it is heated?",
+        "options": [
+          "It becomes weaker",
+          "It becomes stronger",
+          "Its strength does not change",
+          "Its poles swap places"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Thermal motion affects magnetic domain alignment.",
+        "detailed": "Heating a magnet increases thermal agitation, which disrupts the alignment of magnetic domains. As a result, the magnet becomes weaker.",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "medium",
+        "question": "Which description correctly represents the magnetic field inside a bar magnet?",
+        "options": [
+          "Field lines start at the center and move outward",
+          "Field lines begin at the south pole and end at the north pole",
+          "Field lines form continuous closed loops",
+          "Field lines terminate at the poles"
+        ],
+        "questionImages": ["1_071q_01.png"],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "Magnetic field lines never begin or end.",
+        "detailed": "Magnetic field lines are continuous and form closed loops. Inside the magnet, the field lines travel from the south pole to the north pole, completing the loop.",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "medium",
+        "question": "Which statement correctly describes magnetic field lines around a bar magnet?",
+        "options": [
+          "They exit the south pole and enter the north pole",
+          "They exit the north pole and enter the south pole",
+          "They only exist outside the magnet",
+          "They are random in direction"
+        ],
+        "questionImages": ["1_071q_02.png"],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Remember the conventional direction of magnetic field lines.",
+        "detailed": "By convention, magnetic field lines emerge from the north pole and enter the south pole outside the magnet. This direction defines the orientation of the magnetic field.",
+        "author": "Doyoon Kim"
+      }
+    ]
+  }

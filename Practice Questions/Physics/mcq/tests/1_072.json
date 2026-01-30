@@ -1,0 +1,88 @@
+{
+    "subject": "physics",
+    "unit": "electromagnetism",
+    "title": "Magnetic Force on Moving Charges MCQ Problems",
+    "test_id": "2_004",
+    "problems": [
+      {
+        "level": "medium",
+        "question": "An electron enters a uniform magnetic field with a strength of \\(8.99\\,\\text{T}\\). If the direction of the magnetic field and the direction of the electron’s velocity make an angle of \\(30.0^\\circ\\), what is the magnitude of the magnetic force acting on the electron? The electron’s charge is \\(-1.602 \\times 10^{-19}\\,\\text{C}\\), and its speed is \\(3.15 \\times 10^3\\,\\text{m/s}\\).",
+        "options": [
+          "2.27 \\(\\times 10^{-15}\\) N",
+          "4.54 \\(\\times 10^{-15}\\) N",
+          "7.20 \\(\\times 10^{-19}\\) N",
+          "1.44 \\(\\times 10^{-18}\\) N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "Use the magnitude of the magnetic force: \\(|\\vec{F}| = |qvB\\sin\\theta|\\).",
+        "detailed": "The magnitude of the magnetic force is given by \\(|\\vec{F}| = |qvB\\sin\\theta|\\). Substituting the values:\n\n\\[\n|F| = |(-1.602 \\times 10^{-19})(3.15 \\times 10^3)(8.99)\\sin 30.0^\\circ|\n\\]\n\nSince \\(\\sin 30.0^\\circ = 0.5\\), this gives:\n\n\\[\n|F| = 2.27 \\times 10^{-15}\\,\\text{N}\n\\]",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "medium",
+        "question": "A charged particle enters perfectly perpendicular to a uniform magnetic field. The particle’s charge is \\(+3.10\\,\\text{C}\\), and the magnetic field strength is \\(5.67\\,\\text{T}\\). If the particle’s mass is \\(7.01\\,\\text{mg}\\) and its speed is \\(2.23\\,\\text{m/s}\\), what is the radius of the particle’s path?",
+        "options": [
+          "0.889 \\(\\mu\\text{m}\\)",
+          "8.89 \\(\\times 10^{-4}\\) m",
+          "0.889 m",
+          "The path is not circular"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "A",
+        "hint": "For circular motion in a magnetic field, use \\(r = \\frac{mv}{qB}\\).",
+        "detailed": "The radius of circular motion is given by:\n\n\\[\nr = \\frac{mv}{qB}\n\\]\n\nConverting the mass:\n\\[\n7.01\\,\\text{mg} = 7.01 \\times 10^{-6}\\,\\text{kg}\n\\]\n\nSubstituting values:\n\\[\nr = \\frac{(7.01 \\times 10^{-6})(2.23)}{(3.10)(5.67)} = 8.89 \\times 10^{-7}\\,\\text{m}\n\\]\n\nThis is equal to \\(0.889\\,\\mu\\text{m}\\).",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "easy",
+        "question": "A charged particle enters perfectly perpendicular to a uniform magnetic field. The particle has charge \\(q\\), mass \\(m\\), and the magnetic field has strength \\(B\\). What is the period of the circular motion?",
+        "options": [
+          "\\(\\frac{m}{qB}\\)",
+          "\\(\\frac{2\\pi m}{qB}\\)",
+          "\\(\\frac{m}{2\\pi qB}\\)",
+          "It depends on the particle’s velocity"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "Use \\(T = \\frac{2\\pi r}{v}\\) and substitute for \\(r\\).",
+        "detailed": "The period is given by:\n\n\\[\nT = \\frac{2\\pi r}{v}\n\\]\n\nUsing \\(r = \\frac{mv}{qB}\\):\n\n\\[\nT = 2\\pi \\frac{m}{qB}\n\\]\n\nThus, the period does not depend on the velocity.",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "conceptual",
+        "question": "If a charged particle enters perfectly perpendicular to a magnetic field, it follows a circular path. Which statement correctly generalizes the work done by magnetic forces?",
+        "options": [
+          "Magnetic forces always do negative work",
+          "Magnetic forces do no work",
+          "Magnetic forces always do positive work",
+          "Magnetic forces sometimes do work"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "B",
+        "hint": "A force does no work if it is always perpendicular to the displacement.",
+        "detailed": "The magnetic force is always perpendicular to the velocity of the charged particle. Since displacement is in the direction of velocity, the magnetic force is always perpendicular to the displacement. Therefore, magnetic forces do no work.",
+        "author": "Doyoon Kim"
+      },
+      {
+        "level": "medium",
+        "question": "A charged particle enters a uniform magnetic field \\(\\vec{B} = (3.00\\,\\text{T})\\hat{k}\\). Its velocity at \\(t = 0\\) is \\(\\vec{v} = (3.14\\,\\text{m/s})\\hat{i} + (8.15\\,\\text{m/s})\\hat{k}\\). What is the \\(z\\)-component of the magnetic force acting on the particle?",
+        "options": [
+          "9.42 N",
+          "26.2 N",
+          "0 N",
+          "24.5 N"
+        ],
+        "questionImages": [],
+        "solutionImages": [],
+        "correct": "C",
+        "hint": "The magnetic force is perpendicular to both \\(\\vec{v}\\) and \\(\\vec{B}\\).",
+        "detailed": "The magnetic field points entirely in the \\(z\\)-direction. The magnetic force \\(\\vec{F} = q(\\vec{v} \\times \\vec{B})\\) must therefore be perpendicular to \\(\\hat{k}\\). Hence, the force cannot have a \\(z\\)-component. The \\(z\\)-component of the force is \\(0\\,\\text{N}\\).",
+        "author": "Doyoon Kim"
+      }
+    ]
+  }
