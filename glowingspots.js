@@ -15,7 +15,7 @@ if (container) {
     span.style.borderRadius = "50%";
     span.style.position = "absolute";
     span.style.pointerEvents = "none";
-    span.style.boxShadow = ⁠ 0 0 ${10 + Math.random() * 20}px ${color} ⁠;
+    span.style.boxShadow = 0 0 ${10 + Math.random() * 20}px ${color} ⁠;
     container.appendChild(span);
   }
 }
