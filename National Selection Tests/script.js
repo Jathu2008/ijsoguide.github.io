@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       //difficulty only integer for now
       name: "Sri Lanka",
-      difficulty: 2,
+      difficulty: 3,
       flag: "https://flagcdn.com/lk.svg",
       link: "Sri Lanka/sri-lanka.html"
     },

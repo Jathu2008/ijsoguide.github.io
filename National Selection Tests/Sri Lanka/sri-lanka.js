@@ -2,45 +2,45 @@ document.addEventListener("DOMContentLoaded", () => {
   const exams = [
     {
       year: 2024,
-      difficulty: 3,
+      difficulty: 4,
       paperLink: "Papers/2024SriLanka.pdf",
-      solutionLink: ""
+      solutionLink: "Solutions/2024SriLanka.pdf"
     },
     {
       year: 2023,
       difficulty: 3,
       paperLink: "Papers/2023SriLanka.pdf",
-      solutionLink: ""
+      solutionLink: "Solutions/2023SriLanka.pdf"
     },
     {
       year: 2022,
-      difficulty: 4,
+      difficulty: 3,
       paperLink: "Papers/2022SriLanka.pdf",
-      solutionLink: ""
+      solutionLink: "Solutions/2022SriLanka.pdf"
     },
     {
       year: 2019,
       difficulty: 2,
       paperLink: "Papers/2019SriLanka.pdf",
-      solutionLink: ""
+      solutionLink: "Solutions/2019SriLanka.pdf"
     },
     {
       year: 2018,
-      difficulty: 1,
+      difficulty: 3,
       paperLink: "Papers/2018SriLanka.pdf",
-      solutionLink: ""
+      solutionLink: "Solutions/2018SriLanka.pdf"
     },
     {
       year: 2017,
-      difficulty: 3,
+      difficulty: 2,
       paperLink: "Papers/2017SriLanka.pdf",
-      solutionLink: ""
+      solutionLink: "Solutions/2017SriLanka.pdf"
     },
     {
       year: 2016,
       difficulty: 2,
       paperLink: "Papers/2016SriLanka.pdf",
-      solutionLink: ""
+      solutionLink: "Solutions/2016SriLanka.pdf"
     }
   ];
 
