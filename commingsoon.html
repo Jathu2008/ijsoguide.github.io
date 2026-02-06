@@ -116,8 +116,19 @@
   transform: translate3d(0, 0, 0);
 }
   </style>
+  <link rel="stylesheet" href="loader.css">
 </head>
 <body>
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <div class="newtons-cradle">
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+    </div>
+  </div>
+
     <div class="glowing-spots" id="glowingSpots"></div>
   <div class="container">
     <h1>Coming Soon!</h1>
@@ -133,5 +144,6 @@
     }
   </script>
   <script src="/glowingspots.js"></script>
+  <script src="loader.js"></script>
 </body>
 </html>

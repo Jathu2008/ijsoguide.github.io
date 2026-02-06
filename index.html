@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mobilenavigation.css">
   <link rel="stylesheet" href="GradientText.css">
+  <link rel="stylesheet" href="loader.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +36,16 @@
 </head>
 
 <body>
+
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <div class="newtons-cradle">
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+    </div>
+  </div>
 
   <canvas id="particleCanvas"></canvas>
 
@@ -270,6 +281,7 @@
       resetInterval();
     });
   </script>
+  <script src="loader.js"></script>
 </body>
 
 </html>

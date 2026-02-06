@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>National Selection Tests</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="../loader.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -12,6 +13,16 @@
   <script src="/navigationimport.js" type="module"></script>
 </head>
 <body>
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <div class="newtons-cradle">
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+    </div>
+  </div>
+
   <div class="glowing-spots" id="glowingSpots"></div>
   <h1>National Selection Tests</h1>
   <div id="controls">
@@ -32,6 +43,7 @@
   </footer>
   <script src="script.js"></script>
     <script src="/glowingspots.js"></script>
+  <script src="../loader.js"></script>
 
   <script>
     window.location.href = "/commingsoon.html"
