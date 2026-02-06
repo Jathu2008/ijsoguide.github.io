@@ -7,6 +7,10 @@
   --secondary: #b561ff;
   /* Purple (palette) */
   --accent: #ffcb58;
+  /* Green (fourth color) */
+  --tertiary: #40cb7a;
+  /* RGB helper for primary to build rgba shadows */
+  --primary-rgb: 86, 169, 255;
   /* Yellow (palette) */
   --text-main: #ffffff;
   --text-muted: rgba(255, 255, 255, 0.7);
@@ -19,7 +23,8 @@
     90deg,
     var(--primary),
     var(--secondary),
-    var(--accent)
+    var(--accent),
+    var(--tertiary)
   );
 }
 
@@ -133,7 +138,7 @@ body {
   z-index: 2;
   background: radial-gradient(
     circle at center,
-    rgba(59, 130, 246, 0.1) 0%,
+    rgba(var(--primary-rgb), 0.1) 0%,
     transparent 70%
   );
 }
@@ -188,12 +193,12 @@ body {
 .cta-button.primary {
   background: var(--gradient-main);
   color: white;
-  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 4px 15px rgba(var(--primary-rgb), 0.4);
 }
 
 .cta-button.primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.6);
+  box-shadow: 0 8px 25px rgba(var(--primary-rgb), 0.6);
 }
 
 .cta-button.secondary {
@@ -399,7 +404,7 @@ section {
   outline: none;
   border-color: var(--primary);
   background: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 0 15px rgba(var(--primary-rgb), 0.2);
 }
 
 .contact-form button {
@@ -417,7 +422,7 @@ section {
 
 .contact-form button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 20px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 5px 20px rgba(var(--primary-rgb), 0.4);
 }
 
 /* FOOTER */
@@ -667,7 +672,7 @@ footer {
 .carousel-btn:hover {
   background: var(--primary);
   color: white;
-  box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 0 15px rgba(var(--primary-rgb), 0.4);
 }
 
 .prev-btn {
@@ -696,7 +701,7 @@ footer {
 
 .dot.active {
   background: var(--primary);
-  box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 0 10px rgba(var(--primary-rgb), 0.4);
 }
 
 .social-handle {
