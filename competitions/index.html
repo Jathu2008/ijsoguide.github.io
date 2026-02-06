@@ -6,10 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <script src="https://kit.fontawesome.com/04bf603a0f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../loader.css">
   <script src="/navigationimport.js" type="module"></script>
   <script src="script.js" type="module"></script>
 </head>
 <body>
+    <!-- Page Loader -->
+    <div id="page-loader">
+      <div class="newtons-cradle">
+        <div class="newtons-cradle__dot"></div>
+        <div class="newtons-cradle__dot"></div>
+        <div class="newtons-cradle__dot"></div>
+        <div class="newtons-cradle__dot"></div>
+      </div>
+    </div>
+
     <div class="glowing-spots" id="glowingSpots"></div>
 
 
@@ -59,5 +70,6 @@
     </footer>
 
     <script src="/glowingspots.js"></script>
+    <script src="../loader.js"></script>
 </body>
 </html>

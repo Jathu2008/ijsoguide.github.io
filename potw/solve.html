@@ -20,8 +20,19 @@
 <!-- To automatically render math in text elements, include the auto-render extension: -->
 <script type="module" src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
       onload="renderMathInElement(document.body);"></script>
+  <link rel="stylesheet" href="../loader.css">
 </head>
 <body>
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <div class="newtons-cradle">
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+      <div class="newtons-cradle__dot"></div>
+    </div>
+  </div>
+
 
   <div class="center" id="preload"></div>
 
@@ -37,5 +48,6 @@
     &copy; 2025-2026 A Guide to the IJSO. All rights reserved.
   </footer>
 
+  <script src="../loader.js"></script>
 </body>
 </html>
