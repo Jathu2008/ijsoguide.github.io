@@ -148,11 +148,13 @@ function initParticles() {
     }
   }
 
-  // Initialize particles with lower density to save resources
   function init() {
     particles = [];
-    // fewer particles (larger divisor) for better performance
-    let numberOfParticles = (canvas.height * canvas.width) / 18000;
+    
+    const area = canvas.height * canvas.width;
+    let numberOfParticles = Math.round(area / 8000);
+    const MAX_PARTICLES = 1800;
+    numberOfParticles = Math.min(numberOfParticles, MAX_PARTICLES);
     for (let i = 0; i < numberOfParticles; i++) particles.push(new Particle());
   }
 
