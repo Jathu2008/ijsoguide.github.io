@@ -157,13 +157,13 @@ body {
   animation: fadeInUp 0.8s ease backwards;
 }
 
-.gradient-text {
+/*.gradient-text {
   background: var(--gradient-main);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   display: inline-block;
-}
+}*/
 
 .hero-description {
   font-size: clamp(1.1rem, 3vw, 1.4rem);
