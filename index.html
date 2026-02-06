@@ -53,6 +53,8 @@
         <a href="Start Learning/startlearning.html" class="cta-button primary">Start Preparing Now</a>
         <a href="Account/sign-up.html" class="cta-button secondary">Join the Community</a>
       </div>
+      <!-- Shifting countdown inserted here -->
+      <div id="site-countdown" data-shifting-countdown style="margin-top:1.25rem; width:100%; display:flex; justify-content:center;"></div>
     </div><br><br>
   </section>
 
@@ -207,6 +209,23 @@
 
   <script src="script.js" type="module"></script>
   <script src="GradientText.js"></script>
+  <script>
+    // Compute next Dec 1 (UTC) and set the countdown target automatically
+    (function(){
+      const now = new Date();
+      let year = now.getUTCFullYear();
+      const thisDec1 = new Date(Date.UTC(year, 11, 1, 0, 0, 0));
+      if (now >= thisDec1) year += 1;
+      const target = new Date(Date.UTC(year, 11, 1, 0, 0, 0)).toISOString();
+      const el = document.getElementById('site-countdown');
+      if (el) {
+        el.setAttribute('data-target', target);
+        el.setAttribute('data-label', 'Next IJSO');
+      }
+      window.SHIFTING_COUNTDOWN_TARGET = target;
+    })();
+  </script>
+  <script src="ShiftingCountdown.js"></script>
   <script>
     /* Expiration for the "newest" element */
     let startDate = new Date('2025-07-22T00:00:00Z')
